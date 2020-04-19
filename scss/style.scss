@@ -1,0 +1,30 @@
+@import 'bootstrap/bootstrap';
+
+#main-header  {
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    
+
+    .port-item {
+        width: 100%;
+      
+        &:hover {
+            opacity: .8;
+            cursor: pointer;
+        }
+    }
+}
+
+.bg-black {
+    color: #fff;
+    background: #000;
+}
+
+//media
+ @media (min-width: 1199px) {
+     .port-item {
+        padding: 3em!important;
+     }
+ }
